@@ -1,0 +1,11 @@
+Model Information:
+* title:	dog
+* source:	https://sketchfab.com/3d-models/dog-f604e800dc3d457f999f8284458c9cf1
+* author:	victory_mirosya (https://sketchfab.com/victory_mirosya)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "dog" (https://sketchfab.com/3d-models/dog-f604e800dc3d457f999f8284458c9cf1) by victory_mirosya (https://sketchfab.com/victory_mirosya) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
