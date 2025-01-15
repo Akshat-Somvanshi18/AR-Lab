@@ -10,15 +10,14 @@ AR Lab is an Augmented Reality (AR) application designed to transform traditiona
    - Hear the pronunciation of each alphabet for better learning.
 
 2. **Shapes Learning**:
-   - Display 3D models of various shapes.
+   - Display video tutorials of various shapes.
    - Understand shapes through visual and auditory cues.
 
 3. **Solar System Learning**:
    - Explore 3D models of planets.
-   - Learn interesting facts and sounds related to the solar system.
 
 4. **Guess Game**:
-   - Interactive game to guess objects displayed in 3D.
+   - Interactive game to guess objects by hearing its sound within a time range.
    - Improves critical thinking and learning.
 
 ### Marker-Based AR
@@ -32,6 +31,7 @@ AR Lab is an Augmented Reality (AR) application designed to transform traditiona
 ### User-Friendly Interface
 - **Landing Page**: Provides an overview of the app.
 - **Download Marker Page**: Users can download markers to interact with the application.
+- **Contact and About Page**: to increase for user engagement.
 
 ## Installation
 
@@ -46,7 +46,7 @@ AR Lab is an Augmented Reality (AR) application designed to transform traditiona
    ```
 
 3. **Open the Application**:
-   Open the `index.html` file in a web browser that supports AR.
+   Open the `/pages/landing-page.html` file in a web browser that supports AR.
 
 4. **Access Markers**:
    Visit the **Download Marker** page to get markers required for the AR features.
@@ -54,7 +54,7 @@ AR Lab is an Augmented Reality (AR) application designed to transform traditiona
 ## Usage
 
 - Show the printed or downloaded marker in front of the camera.
-- The application detects the marker and displays corresponding 3D models.
+- The application detects the marker and displays corresponding results.
 - Listen to the associated sounds and interact with the content.
 
 ## Technologies Used
@@ -66,46 +66,25 @@ AR Lab is an Augmented Reality (AR) application designed to transform traditiona
 - **Bootstrap**: For responsive and user-friendly design.
 
 ## Screenshots
+![Screenshot 2025-01-16 050508](https://github.com/user-attachments/assets/c16fcd5c-65bd-4bb9-b8d5-51ed7a6e7bf4)
 
-![Landing Page Screenshot](#)
-![Marker Interaction Screenshot](#)
+![Screenshot 2025-01-16 050514](https://github.com/user-attachments/assets/97fd9f2a-7e05-42a5-82a3-cb4124217bf6)
 
-## Contributing
+![Screenshot 2025-01-16 050522](https://github.com/user-attachments/assets/6951ad77-f3d9-4206-a535-eae866f7a8f5)
 
-Contributions are welcome! Follow these steps:
+![Screenshot 2025-01-16 050639](https://github.com/user-attachments/assets/db0be3d7-9572-472d-a241-6f46dada411f)
 
-1. **Fork the Repository**:
-   Click on the 'Fork' button on the top right of this page.
+![Screenshot 2025-01-16 050934](https://github.com/user-attachments/assets/bcbfcffe-43c0-44dd-8a08-8f24f2d9fe52)
 
-2. **Create a New Branch**:
-   ```bash
-   git checkout -b feature-branch-name
-   ```
-
-3. **Commit Changes**:
-   ```bash
-   git commit -m "Description of your changes"
-   ```
-
-4. **Push to Your Branch**:
-   ```bash
-   git push origin feature-branch-name
-   ```
-
-5. **Create a Pull Request**:
-   Submit your pull request for review.
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## Contact
 
 For any questions, suggestions, or feedback, please contact:
 
 - **Name**: Akshat S Somvanshi
-- **Email**: [Your Email Address]
+- **Email**: akshatsomvanshi18@gmail.com
 - **GitHub**: [Akshat-Somvanshi18](https://github.com/Akshat-Somvanshi18)
+- **LinkedIN**: [Akshat-Somvanshi18](https://www.linkedin.com/in/akshat-s-somvanshi-8651a2219/)
 
 ---
 
