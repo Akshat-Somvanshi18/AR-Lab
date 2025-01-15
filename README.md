@@ -84,7 +84,7 @@ For any questions, suggestions, or feedback, please contact:
 - **Name**: Akshat S Somvanshi
 - **Email**: akshatsomvanshi18@gmail.com
 - **GitHub**: [Akshat-Somvanshi18](https://github.com/Akshat-Somvanshi18)
-- **LinkedIN**: [Akshat-Somvanshi18](https://www.linkedin.com/in/akshat-s-somvanshi-8651a2219/)
+- **LinkedIN**: [Akshat S Somvanshi](https://www.linkedin.com/in/akshat-s-somvanshi-8651a2219/)
 
 ---
 
