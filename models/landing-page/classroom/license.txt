@@ -1,0 +1,11 @@
+Model Information:
+* title:	French Classroom
+* source:	https://sketchfab.com/3d-models/french-classroom-08d3c43f605c4be685a7f76fcbbd867b
+* author:	dragonmaster33 (https://sketchfab.com/dragonmaster33)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "French Classroom" (https://sketchfab.com/3d-models/french-classroom-08d3c43f605c4be685a7f76fcbbd867b) by dragonmaster33 (https://sketchfab.com/dragonmaster33) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

@@ -1,0 +1,206 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  color: #333;
+  background: #f8f9fa;
+  line-height: 1.6;
+}
+p {
+  margin: 0;
+}
+
+/* Define custom colors */
+:root {
+  --custom-purple: rgb(73, 34, 151);
+}
+
+/* Use the colors in class names */
+.custom-purple {
+  background-color: var(--custom-purple);
+}
+.custom-border{
+  border: 2px solid var(--custom-purple);
+}
+
+
+.normal-btn{
+  background-color: var(--custom-purple);
+  color: white;
+}
+.outline-btn{
+  color: black;
+  border: 2px solid var(--custom-purple)
+}
+.normal-btn:hover{
+  background-color: white;
+  color: black;
+  border: 2px solid var(--custom-purple)
+}
+.outline-btn:hover{
+  background-color: var(--custom-purple);
+  color: white;
+  border: 2px solid var(--custom-purple)
+}
+
+header.hero-section {
+  background-image: linear-gradient(
+    to right,
+    black,
+    var(--custom-purple),
+    var(--custom-purple),
+    var(--custom-purple),
+    var(--custom-purple),
+    var(--custom-purple),
+    black
+  );
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero-section h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.hero-section p {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.about-section {
+  padding: 50px 20px;
+  background: white;
+  text-align: center;
+}
+
+.about-container h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: rgb(49, 17, 113);
+}
+
+.about-container p {
+  font-size: 1.1rem;
+  margin: 10px 0;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.features-section {
+  padding: 50px 20px;
+  background: #f8f9fa;
+  text-align: center;
+}
+
+.features-container h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: rgb(49, 17, 113);
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.feature {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  flex: 1 1 calc(33.333% - 40px); /* Flexible layout */
+}
+
+.feature h3 {
+  font-size: 1.5rem;
+  color: rgb(49, 17, 113);
+  margin-bottom: 10px;
+}
+
+.feature p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.footer-section {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.footer-section p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .hero-section h1 {
+    font-size: 2rem;
+  }
+
+  .about-container h2,
+  .features-container h2 {
+    font-size: 1.8rem;
+  }
+
+  .feature {
+    flex: 1 1 calc(50% - 40px); /* Two columns */
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-section h1 {
+    font-size: 1.8rem;
+  }
+
+  .hero-section p {
+    font-size: 1rem;
+  }
+
+  .about-container h2,
+  .features-container h2 {
+    font-size: 1.5rem;
+  }
+
+  .feature {
+    flex: 1 1 calc(100% - 40px); /* Single column */
+  }
+
+  .features {
+    gap: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-section {
+    padding: 60px 20px;
+  }
+
+  .hero-section h1 {
+    font-size: 1.5rem;
+  }
+
+  .hero-section p {
+    font-size: 0.9rem;
+  }
+
+  .about-container p {
+    font-size: 1rem;
+  }
+
+  .feature h3 {
+    font-size: 1.3rem;
+  }
+
+  .feature p {
+    font-size: 0.9rem;
+  }
+}
+

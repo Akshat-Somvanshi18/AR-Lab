@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --custom-purple: rgb(73, 34, 151);
+}
+
+.custom-purple {
+  background-color: var(--custom-purple);
+}
+.custom-border {
+  border: 2px solid var(--custom-purple);
+}
+
+.normal-btn {
+  background-color: var(--custom-purple);
+  color: white;
+}
+.outline-btn {
+  color: black;
+  border: 2px solid var(--custom-purple);
+}
+.normal-btn:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid var(--custom-purple);
+}
+.outline-btn:hover {
+  background-color: var(--custom-purple);
+  color: white;
+  border: 2px solid var(--custom-purple);
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.gallery-item {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.gallery-item button {
+  width: 100%;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.gallery-item button:hover {
+  opacity: 0.5;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+a {
+  text-decoration: none;
+}

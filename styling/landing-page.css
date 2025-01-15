@@ -1,0 +1,38 @@
+/* Define custom colors */
+:root {
+    --custom-purple: rgb(73, 34, 151);
+}
+
+/* Use the colors in class names */
+.custom-purple {
+    background-color: var(--custom-purple);
+}
+.custom-border{
+    border: 2px solid var(--custom-purple);
+}
+
+
+.normal-btn{
+    background-color: var(--custom-purple);
+    color: white;
+}
+.outline-btn{
+    color: black;
+    border: 2px solid var(--custom-purple)
+}
+.normal-btn:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid var(--custom-purple)
+}
+.outline-btn:hover{
+    background-color: var(--custom-purple);
+    color: white;
+    border: 2px solid var(--custom-purple)
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "ubuntu";
+}

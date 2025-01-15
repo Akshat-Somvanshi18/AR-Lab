@@ -1,0 +1,11 @@
+Model Information:
+* title:	Countdown
+* source:	https://sketchfab.com/3d-models/countdown-0ee550edf77243f688fda6530c01743c
+* author:	Akinremi (https://sketchfab.com/Akinremi)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Countdown" (https://sketchfab.com/3d-models/countdown-0ee550edf77243f688fda6530c01743c) by Akinremi (https://sketchfab.com/Akinremi) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

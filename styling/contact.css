@@ -1,0 +1,50 @@
+/* Define custom colors */
+:root {
+  --custom-purple: rgb(73, 34, 151);
+}
+
+/* Use the colors in class names */
+.custom-purple {
+  background-color: var(--custom-purple);
+}
+#sign-contact-img {
+  width: 260px;
+}
+.contact-logo {
+  width: 120px;
+  transition: transform 1s;
+}
+#facebook-img {
+  height: 120px;
+  width: 160px;
+  transition: transform 1s;
+}
+.contact-logo:hover,
+#facebook-img:hover {
+  cursor: pointer;
+  opacity: 0.7;
+  transform: rotateZ(360deg);
+}
+.contact-h3 {
+  color: darkgreen;
+  text-shadow: 2px 3px lightgray;
+}
+@media screen and (max-width: 560px) {
+  .contact-h3 {
+    font-size: 18px;
+  }
+  .contact-h4 {
+    font-size: 20px;
+  }
+  .contact-h5 {
+    font-size: 15px;
+  }
+  .contact-logo {
+    width: 90px;
+    height: 90px;
+  }
+  #facebook-img {
+    width: 130px;
+    height: 85px;
+  }
+}
