@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: white;
+  font-family: "Poppins", sans-serif;
 }
 
 :root {
@@ -70,15 +72,10 @@ body {
   transition: background-color 0.3s;
 }
 
-.gallery-item button:hover {
+.gallery-item a:hover {
   opacity: 0.5;
 }
-* {
-  margin: 0px;
-  padding: 0px;
-  color: white;
-  font-family: "Poppins", sans-serif;
-}
+
 a {
   text-decoration: none;
 }
