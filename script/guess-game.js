@@ -1,44 +1,45 @@
-let sound1 = new Howl({ src: ["../audio/guess-game/sound2.mp3"] });
-let sound2 = new Howl({ src: ["../audio/guess-game/sound2.mp3"] });
-let sound3 = new Howl({ src: ["../audio/guess-game/sound3.mp3"] });
-let sound4 = new Howl({ src: ["../audio/guess-game/sound4.mp3"] });
-let sound5 = new Howl({ src: ["../audio/guess-game/sound5.mp3"] });
-let timer = new Howl({ src: ["../audio/guess-game/timer.mp3"] });
+let sound1 = new Howl({ src: ["../audio/guess-game/sound1.mp3"] });
+      let sound2 = new Howl({ src: ["../audio/guess-game/sound2.mp3"] });
+      let sound3 = new Howl({ src: ["../audio/guess-game/sound3.mp3"] });
+      let sound4 = new Howl({ src: ["../audio/guess-game/sound4.mp3"] });
+      let sound5 = new Howl({ src: ["../audio/guess-game/sound5.mp3"] });
+      let timer = new Howl({ src: ["../audio/guess-game/timer.mp3"] });
 
-const audioMap = {
-  sound1: sound1,
-  sound2: sound2,
-  sound3: sound3,
-  sound4: sound4,
-  sound5: sound5,
-};
 
-const flagMap = {
-  sound1: true,
-  sound2: true,
-  sound3: true,
-  sound4: true,
-  sound5: true,
-};
+      let audioMap = {
+        "sound1": sound1,
+        "sound2": sound2,
+        "sound3": sound3,
+        "sound4": sound4,
+        "sound5": sound5,
+      };
 
-window.onload = function () {
-  let markers = document.getElementsByClassName("game-markers");
-  Array.from(markers).forEach(function (marker) {
-    let name = marker.getAttribute("name");
-    marker.addEventListener("markerFound", function () {
-      if (flagMap[name] == true) {
-        flagMap[name] = false;
-        timer.play();
-        audioMap[name].play();
-      }
-    });
+      let flagMap = {
+        "sound1": true,
+        "sound2": true,
+        "sound3": true,
+        "sound4": true,
+        "sound5": true,
+      };
 
-    marker.addEventListener("markerLost", function () {
-      timer.stop();
-      audioMap[name].stop();
-    });
-  });
-};
+      window.onload = function () {
+        let markers = document.getElementsByClassName("game-markers");
+        Array.from(markers).forEach(function (marker) {
+          let name = marker.getAttribute("name");
+          marker.addEventListener("markerFound", function () {
+            if (flagMap[name] == true) {
+              flagMap[name] = false;
+              timer.play();
+              audioMap[name].play();
+            }
+          });
+
+          marker.addEventListener("markerLost", function () {
+            timer.stop();
+            audioMap[name].stop();
+          });
+        });
+      };
 
 //   const audioMap = {
 //     'A-Marker': ASound,

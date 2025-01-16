@@ -8,7 +8,7 @@
     <script src="https://cdn.jsdelivr.net/npm/aframe-environment-component@1.3.7/dist/dist/aframe-extras.js"></script>
   </head>
   <body style="margin: 0px; overflow: hidden">
-    <a-scene  arjs="debugUIEnabled: true; detectionMode:mono_and_matrix; matrixCodeType: 3x3">
+    <a-scene  arjs="debugUIEnabled: true;">
         <a-assets>
             <video id="circle" loop="true" src="../videos/shapes/circle.mp4"></video>
             <video id="triangle" loop="true" src="../videos/shapes/triangle.mp4"></video>
@@ -17,16 +17,16 @@
         </a-assets>
         
           <!-- Using the asset management system. -->
-          <a-marker type="barcode" value="14" class="shapes-marker" name="circle">
+          <a-marker type="pattern" url="../markers/shapes/marker/circle.patt" value="14" class="shapes-marker" name="circle">
             <a-video src="#circle" width="3" height="3" rotation="-30 0 0"></a-video>
           </a-marker>
-          <a-marker type="barcode" value="15" class="shapes-marker" name="triangle">
+          <a-marker type="pattern" url="../markers/shapes/marker/triangle.patt" value="15" class="shapes-marker" name="triangle">
             <a-video src="#triangle" width="3" height="3" rotation="-30 0 0"></a-video>
           </a-marker>
-          <a-marker type="barcode" value="16" class="shapes-marker" name="square">
+          <a-marker type="pattern" url="../markers/shapes/marker/square.patt" value="16" class="shapes-marker" name="square">
             <a-video src="#square" width="3" height="3" rotation="-30 0 0"></a-video>
           </a-marker>
-          <a-marker type="barcode" value="17" class="shapes-marker" name="heart">
+          <a-marker type="pattern" url="../markers/shapes/marker/heart.patt" value="17" class="shapes-marker" name="heart">
             <a-video src="#heart" width="3" height="3" rotation="-30 0 0"></a-video>
           </a-marker>
         
