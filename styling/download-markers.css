@@ -61,7 +61,7 @@ body {
   display: block;
 }
 
-.gallery-item button {
+.gallery-item a {
   width: 100%;
   padding: 10px;
   cursor: pointer;
