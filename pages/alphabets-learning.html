@@ -7,8 +7,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js" integrity="sha512-6+YN/9o9BWrk6wSfGxQGpt3EUK6XeHi6yeHV+TYD2GR0Sj/cggRpXr1BrAQf0as6XslxomMUxXp2vIl+fv0QRA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdn.jsdelivr.net/npm/aframe-environment-component@1.3.7/dist/dist/aframe-extras.js"></script>
   </head>
-  <body style="margin: 0px; overflow: hidden">
+  <body style="margin: 0px;overflow: hidden;">
+    <div style="z-index: 10;position: fixed;top: 10px;pointer-events: auto;">
+     <button onclick="func()">click</button>
+    </div>
     <a-scene  arjs="debugUIEnabled: true">
+      
         <a-assets>
             <a-asset-item id="A" src="../models/alphabets/A/scene.gltf"></a-asset-item>
             <a-asset-item id="B" src="../models/alphabets/B/scene.gltf"></a-asset-item>
