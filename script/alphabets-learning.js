@@ -1,8 +1,3 @@
-function func()
-{
-  alert("you are good to go");
-}
-
 let ASound = new Howl({ src: ["../audio/alphabets/A.mp3"] });
 let BSound = new Howl({ src: ["../audio/alphabets/B.mp3"] });
 let CSound = new Howl({ src: ["../audio/alphabets/C.mp3"] });
