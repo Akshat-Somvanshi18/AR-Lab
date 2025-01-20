@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "ubuntu";
+}
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#text-box{
+    position: fixed;
+    top: 10px;
+    display: none;
+    z-index: 10;
+    color: white;
+    width: 75%;
+}
+#text{
+    color: white;
+    margin: 0px auto;
+    text-align: center;
+}
