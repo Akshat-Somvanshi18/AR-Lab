@@ -1,11 +1,11 @@
 Model Information:
-* title:	Brisbane City Scania L94UB Bus (RHD)
-* source:	https://sketchfab.com/3d-models/brisbane-city-scania-l94ub-bus-rhd-8f41b49ba5344d3a8391a4c0d144d8e8
-* author:	Jotrain (https://sketchfab.com/Jotrain)
+* title:	HCR2 Bus
+* source:	https://sketchfab.com/3d-models/hcr2-bus-25255c777f9342bc94dacbeb027dd15d
+* author:	oakar258 (https://sketchfab.com/oakar258)
 
 Model License:
-* license type:	CC-BY-NC-ND-4.0 (http://creativecommons.org/licenses/by-nc-nd/4.0/)
-* requirements:	Author must be credited. No commercial use. Modified versions can not be distributed.
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
 
 If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
-This work is based on "Brisbane City Scania L94UB Bus (RHD)" (https://sketchfab.com/3d-models/brisbane-city-scania-l94ub-bus-rhd-8f41b49ba5344d3a8391a4c0d144d8e8) by Jotrain (https://sketchfab.com/Jotrain) licensed under CC-BY-NC-ND-4.0 (http://creativecommons.org/licenses/by-nc-nd/4.0/)
+This work is based on "HCR2 Bus" (https://sketchfab.com/3d-models/hcr2-bus-25255c777f9342bc94dacbeb027dd15d) by oakar258 (https://sketchfab.com/oakar258) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
